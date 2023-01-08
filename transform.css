@@ -1,0 +1,14 @@
+.container, .inner{
+    width: 150px;
+    height: 150px;
+    border: 2px solid khaki ;
+}
+
+.container{
+    background-color: lightblue;
+}
+
+.inner{
+    background-color: lightcoral;
+    transform:translate(100px) scale(0.75) rotate(45deg) ;
+}

@@ -1,0 +1,27 @@
+.mine{
+    width: 100px;
+    border: 2px solid blue;
+    overflow: hidden;
+}
+
+.short-text{
+    white-space:nowrap ;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.maga-box{
+    width:400px;
+    height:300px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.mango-people{
+    width: 400px;
+    height:300px;
+    border: 2px solid red;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
