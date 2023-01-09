@@ -1,0 +1,27 @@
+:root{
+    --primary-color: blueviolet;
+    --secondary-color:aqua;
+    --single-border:2px solid red;
+}
+
+h1{
+    color:var(--primary-color);
+}
+
+#heading-3{
+    border:2px solid  var(--primary-color) ;
+}
+
+p{
+    border-bottom: var(--single-border);
+}
+
+.box{
+    background-color: var(--primary-color) ;
+    width: calc(100%-500PX);
+    height: 100px;
+}
+
+.pond{
+    background-color: var(--secondary-color);
+}
